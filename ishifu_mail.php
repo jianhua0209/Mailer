@@ -5,7 +5,7 @@ class ishifu_mail extends mailer{
 	var $name = 'Ishifu Mailer';
 	var $description = 'Ishifu提供的邮件代理发送邮件 (发送者显示 Ishifu-Open-Mail-System &lt;open_mail_api@ishifu.top&gt;)';
 	var $config = array(
-		array('<p>推荐地址:</p><p>http://yule.ishifu.top/mail/</p>API地址', 'agentapi', '', ''),
+		array('API地址', 'agentapi', '', ''),
 		);
 	function isAvailable() {
 		return true;
